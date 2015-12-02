@@ -1,9 +1,9 @@
-package stack.stackofstrings.impl;
+package com.stackofstrings.stack.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import stack.stackofstrings.api.StackOfStrings;
+import com.stackofstrings.stack.api.StackOfStrings;
 
 /*
  * 

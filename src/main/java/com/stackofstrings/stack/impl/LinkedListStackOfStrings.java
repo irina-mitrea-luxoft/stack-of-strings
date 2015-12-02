@@ -1,6 +1,6 @@
-package stack.stackofstrings.impl;
+package com.stackofstrings.stack.impl;
 
-import stack.stackofstrings.api.StackOfStrings;
+import com.stackofstrings.stack.api.StackOfStrings;
 
 public class LinkedListStackOfStrings implements StackOfStrings{
 

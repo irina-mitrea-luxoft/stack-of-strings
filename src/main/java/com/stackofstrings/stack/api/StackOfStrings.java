@@ -1,4 +1,4 @@
-package stack.stackofstrings.api;
+package com.stackofstrings.stack.api;
 
 public interface StackOfStrings {
 	

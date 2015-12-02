@@ -1,4 +1,4 @@
-package stack.stackofstrings.impl;
+package com.stackofstrings.stack.impl;
 
 import static org.junit.Assert.*;
 
@@ -6,8 +6,8 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import stack.stackofstrings.api.StackOfStrings;
-import stack.stackofstrings.impl.LinkedListStackOfStrings;
+import com.stackofstrings.stack.api.StackOfStrings;
+import com.stackofstrings.stack.impl.LinkedListStackOfStrings;
 
 public class LinkedListStackOfStringTest {
 
