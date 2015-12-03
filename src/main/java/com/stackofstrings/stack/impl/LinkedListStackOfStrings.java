@@ -2,6 +2,10 @@ package com.stackofstrings.stack.impl;
 
 import com.stackofstrings.stack.api.StackOfStrings;
 
+/**
+ * Implementation of StackOfStrings using LinkedList
+ *
+ */
 public class LinkedListStackOfStrings implements StackOfStrings{
 
 	private int sizeOfStack = 0;

@@ -1,13 +1,10 @@
 package com.stackofstrings.stack.impl;
 
-import static org.junit.Assert.*;
-
-import java.io.IOException;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
 import com.stackofstrings.stack.api.StackOfStrings;
-import com.stackofstrings.stack.impl.ArrayListStackOfStrings;
 
 public class ArrayListStackOfStringsTest {
 	
@@ -17,8 +14,9 @@ public class ArrayListStackOfStringsTest {
 	private static final String NODE4 = new String("Node4");
 
 	@Test
-	public void testStack() throws IOException{		
-		StackOfStrings stack = new ArrayListStackOfStrings();		
+	public void testStack() {	
+	
+		StackOfStrings stack = new ArrayListStackOfStrings();
 		stack.push(NODE1);
 		stack.push(NODE2);
 		stack.push(NODE3);

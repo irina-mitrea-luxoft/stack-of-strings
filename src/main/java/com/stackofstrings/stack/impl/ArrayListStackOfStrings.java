@@ -5,8 +5,9 @@ import java.util.List;
 
 import com.stackofstrings.stack.api.StackOfStrings;
 
-/*
- * 
+/**
+ * Implementation of StackOfStrings using ArrayList
+ *
  */
 public class ArrayListStackOfStrings implements StackOfStrings{
 	
