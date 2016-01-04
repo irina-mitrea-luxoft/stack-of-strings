@@ -17,7 +17,7 @@ public class LinkedListStackOfStringTest {
 	private static final String NODE4 = new String("Node4");
 	
 	@Test
-	public void testStack() throws IOException{	
+	public void testPushPop() throws IOException{	
 		StackOfStrings stackLinked = new LinkedListStackOfStrings();
 		stackLinked.push(NODE1);
 		stackLinked.push(NODE2);
