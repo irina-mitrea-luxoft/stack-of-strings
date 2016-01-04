@@ -14,7 +14,7 @@ public class ArrayListStackOfStringsTest {
 	private static final String NODE4 = new String("Node4");
 
 	@Test
-	public void testStack() {	
+	public void testPushPop() {	
 	
 		StackOfStrings stack = new ArrayListStackOfStrings();
 		stack.push(NODE1);

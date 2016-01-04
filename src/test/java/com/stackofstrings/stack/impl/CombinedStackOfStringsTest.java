@@ -18,7 +18,7 @@ public class CombinedStackOfStringsTest {
 	private static final String COMPARISON_STRING = NODE4 + NODE3 + NODE2 + NODE1;
 	
 	@Test
-	public void testStack() {		
+	public void testPushPop() {		
 		StackOfStrings arrayListStack = new ArrayListStackOfStrings();		
 		StackOfStrings linkedListStack = new LinkedListStackOfStrings();
 		
